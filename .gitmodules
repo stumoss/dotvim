@@ -7,3 +7,6 @@
 [submodule "bundle/avim"]
 	path = bundle/avim
 	url = https://github.com/vim-scripts/a.vim.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim.git
