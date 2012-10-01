@@ -32,6 +32,8 @@ set wrap
 set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=80
+highlight ColorColumn ctermbg=DarkGray guibg=DarkGray
+
 
 " Unmap F1 key from help
 inoremap <F1> <ESC>
