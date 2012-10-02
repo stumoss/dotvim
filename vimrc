@@ -2,6 +2,7 @@ filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+filetype on
 filetype plugin indent on
 set nocompatible
 
@@ -28,8 +29,9 @@ set relativenumber
 set ignorecase
 set smartcase
 
-set wrap
-set textwidth=79
+set nowrap
+set textwidth=0
+set wrapmargin=0
 set formatoptions=qrn1
 set colorcolumn=80
 highlight ColorColumn ctermbg=DarkGray guibg=DarkGray
