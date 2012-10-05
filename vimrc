@@ -24,18 +24,22 @@ set nobackup
 set showmatch
 set showmode
 set background=dark
-
 set relativenumber
 set ignorecase
 set smartcase
-
+set backspace=2
+set backspace=indent,eol,start
 set nowrap
 set textwidth=0
 set wrapmargin=0
 set formatoptions=qrn1
 set colorcolumn=80
-highlight ColorColumn ctermbg=DarkGray guibg=DarkGray
+set autowriteall
+set laststatus=2
+set visualbell
+set noerrorbells
 
+highlight ColorColumn ctermbg=DarkGray guibg=DarkGray
 
 " Unmap F1 key from help
 inoremap <F1> <ESC>
