@@ -11,9 +11,6 @@
 	path = bundle/taglist
 	url = git://github.com/vim-scripts/taglist.vim.git
         ignore = dirty
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = git://github.com/ervandew/supertab.git
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
