@@ -21,6 +21,7 @@ set expandtab
 set ruler
 set smarttab autoindent
 set nobackup
+set noswapfile
 set showmatch
 set showmode
 set background=dark
