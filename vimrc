@@ -80,3 +80,17 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 " automatically open and close the popup menu / preview window
 au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 set completeopt=menuone,menu,longest,preview
+
+let bufExplorerDefaultHelp = 0           " Show default help?
+let bufExplorerDetailedHelp = 0          " Show detailed help?
+let bufExplorerFindActive = 1            " When selecting an active buffer, take you to the window where it is ac?
+let bufExplorerOnlyOneTab = 1            " If ShowTabBuffer = 1, only store the most recent tab for this buffer.
+let bufExplorerReverseSort = 0           " Sort in reverse order by default?
+let bufExplorerShowDirectories = 0       " (Dir's are added by commands like ':e .')
+let bufExplorerShowRelativePath = 1      " Show listings with relative or absolute paths?
+let bufExplorerShowTabBuffer = 0         " Show only buffer(s) for this tab?
+let bufExplorerShowUnlisted = 0          " Show unlisted buffers?
+let bufExplorerSortBy = "name"           " Sorting methods are in s:sort_by:
+let bufExplorerSplitBelow = &splitbelow  " Should horizontal splits be below or above current window?
+let bufExplorerSplitOutPathName = 1      " Split out path and file name?
+let bufExplorerSplitRight = &splitright  " Should vertical splits be on the right or left of current window?
