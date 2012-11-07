@@ -25,3 +25,4 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = git://github.com/vim-scripts/bufexplorer.zip.git
+        ignore = dirty
